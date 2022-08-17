@@ -26,7 +26,7 @@ module.exports = {
     main: './src/main.tsx',
   },
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: "static/js/main.[hash].chunk.js",
     publicPath: "/"
   },
