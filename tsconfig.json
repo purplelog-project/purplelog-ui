@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "target": "ESNext",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "jsxImportSource": "@emotion/react",
+    "resolveJsonModule": true
+  },
+  "include": ["src"]
+}
